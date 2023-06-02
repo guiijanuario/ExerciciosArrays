@@ -30,7 +30,7 @@ public class Exercicio1 {
             return;
         }
 
-        for (int i = menor + 1; i <= maior; i++) {
+        for (int i = menor; i <= maior; i++) {
             numeros.add(i);
         }
 
@@ -40,11 +40,7 @@ public class Exercicio1 {
         int numRemover = scanner.nextInt();
         int indexNumRemover = numeros.indexOf(numRemover);
 
-        for(int numero : numeros){
-            if(indexNumRemover == numero){
-                numeros.remove(indexNumRemover);
-            }
-        }
+        numeros.remove(indexNumRemover);
 
         System.out.println("A lista ficou da seguinte  " + numeros + " depois que removeu o número " + numRemover);
 
