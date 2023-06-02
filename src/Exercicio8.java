@@ -30,7 +30,7 @@ public class Exercicio8 {
                 }
                 if(soma % 2 ==0) {
                     numerosPares.add(soma);
-                    System.out.println("O número é: " + numero + " A soma entre elas é: " + soma + " [ -- Esse número é par -- ]");
+                    System.out.println("O número é: " + numero + " A soma entre elas é: " + soma + " [ -- Esse número é par -- ]git");
                 }
         }
     }
