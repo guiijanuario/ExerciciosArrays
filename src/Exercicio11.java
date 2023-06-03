@@ -1,10 +1,17 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Exercicio11 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("[---- Pegar o maior e o maior número de um vetor ----]");
-        int[] A = new int[]{12,18,22,24,15,34,56,56,64,34};
+        int[] A = new int[10];
+
+        for (int i = 0; i < 10; i++){
+            System.out.println("Insira o " + (i+1) + "ª número: ");
+            A[i] = scanner.nextInt();
+        }
 
         int menorIdade = Integer.MAX_VALUE;
         int maiorIdade = Integer.MIN_VALUE;
